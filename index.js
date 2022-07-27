@@ -36,7 +36,7 @@ app.post("/ussd", (req, res) => {
         const accountNumber = "AC100101";
         // terminal request
         response = `END your account number is ${accountNumber}`
-    } else if ("1*2") {
+    } else if (text === "1*2") {
         // get data from the database
         const balance = "KES 10,000";
         // terminal request start with end
