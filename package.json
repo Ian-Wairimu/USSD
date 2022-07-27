@@ -1,0 +1,24 @@
+{
+  "name": "ussd",
+  "version": "1.0.0",
+  "description": "this is a ussd application created using nodejs and it is hosted in the firebase cloud functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wairimu-ian/USSD.git"
+  },
+  "author": "Ian Moon Wairimu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wairimu-ian/USSD/issues"
+  },
+  "homepage": "https://github.com/wairimu-ian/USSD#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "firebase-functions": "^3.22.0"
+  }
+}
